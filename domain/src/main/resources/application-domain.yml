@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl # Default is ImplicitNamingStrategy. Physical name will be the same as the defined field name.
+  datasource:
+    url: jdbc:mysql://localhost:3310/fintech?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+    username: fintech
+    password: fintech
