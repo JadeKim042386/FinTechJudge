@@ -7,7 +7,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories
 
 @SpringBootApplication
 @EntityScan(basePackages = ["com.zerobase.domain"])
-@EnableJpaRepositories(basePackages = ["com.zerobase.domain"])
 class ApiApplication
 
 fun main(args: Array<String>) {
