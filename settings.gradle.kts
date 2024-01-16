@@ -6,3 +6,4 @@ include(
         "css",
         "domain"
 )
+include("kafka")

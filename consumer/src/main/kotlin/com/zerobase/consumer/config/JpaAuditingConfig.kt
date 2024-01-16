@@ -1,4 +1,4 @@
-package com.zerobase.api.config
+package com.zerobase.consumer.config
 
 import org.springframework.context.annotation.Configuration
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing
