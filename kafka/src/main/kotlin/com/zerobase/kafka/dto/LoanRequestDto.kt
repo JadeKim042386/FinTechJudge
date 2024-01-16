@@ -5,4 +5,5 @@ data class LoanRequestDto(
         var userName: String,
         var userIncomeAmount: Long,
         var userRegistrationNumber: String
-)
+) {
+}
