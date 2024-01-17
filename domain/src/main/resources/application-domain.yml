@@ -7,9 +7,9 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl # Default is ImplicitNamingStrategy. Physical name will be the same as the defined field name.
   datasource:
-    url: jdbc:mysql://localhost:3310/fintech?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+    url: jdbc:mysql://fintech-mysql:3306/fintech?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
     username: fintech
     password: fintech
   redis:
-    host: localhost
+    host: fintech-redis
     port: 6379
